@@ -1,11 +1,11 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
-// icon-color: blue; icon-glyph: weight;
+//
 //Version 0.2 by MaxiKT
-
+//
 //This Scriptable Widget Code mainly from eXtendedZero
 //I just changed it to my needs.
-
+//
 //Setup. 
 //Easy installation. You only need to specify a unique ID for each copy of the widget.
 //
