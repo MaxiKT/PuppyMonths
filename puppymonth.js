@@ -77,7 +77,7 @@ if (config.runsInWidget) {
 // To calc the months  
   var Dif_Months = Math.trunc(Dif_Days /30)
   
-  let widget = createWidget(titl, `${Dif_Months}`, 'Start at', t1+", "+t2, t3)
+  let widget = createWidget(titl, `${Dif_Months}`, 'Gebutstag', t1+", "+t2, t3)
   
   Script.setWidget(widget)
   Script.complete()
