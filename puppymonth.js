@@ -1,7 +1,7 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: blue; icon-glyph: weight;
-//Version 0.1 by MaxiKT
+//Version 0.2 by MaxiKT
 
 //This Scriptable Widget Code mainly from eXtendedZero
 //I just changed it to my needs.
@@ -80,7 +80,7 @@ if (config.runsInWidget) {
   
   var Dif_Months_Short = Math.round(Dif_Months*100)/100.0
   
-  let widget = createWidget(titl, `${Dif_Months}`, 'Birthday', t1+", "+t2, t3)
+  let widget = createWidget(titl, `${Dif_Months_Short}`, 'Birthday', t1+", "+t2, t3)
   
   Script.setWidget(widget)
   Script.complete()
