@@ -70,12 +70,15 @@ if (config.runsInWidget) {
 //To calc the time difference of two dates 
   let Dif_Time = today.getTime()- mydat.getTime()
   
-  
 //To calc the no. of days between two dates 
   var Dif_Days = Math.trunc(Dif_Time / (1000 * 3600 * 24)); 
 
 // To calc the months  
   var Dif_Months = Math.trunc(Dif_Days /30)
+
+//To set 2 decimal places
+  
+  var Dif_Months_Short = Math.round(Dif_Months*100)/100.0
   
   let widget = createWidget(titl, `${Dif_Months}`, 'Gebutstag', t1+", "+t2, t3)
   
