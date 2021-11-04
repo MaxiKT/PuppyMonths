@@ -80,7 +80,7 @@ if (config.runsInWidget) {
   
   var Dif_Months_Short = Math.round(Dif_Months*100)/100.0
   
-  let widget = createWidget(titl, `${Dif_Months}`, 'Gebutstag', t1+", "+t2, t3)
+  let widget = createWidget(titl, `${Dif_Months}`, 'Birthday', t1+", "+t2, t3)
   
   Script.setWidget(widget)
   Script.complete()
@@ -93,8 +93,8 @@ myTextInput.title = "Settings:"
 myTextInput.addAction("Ok") 
 myTextInput.addCancelAction("Cancel") 
 
-myTextInput.addTextField("Title:", t0)
-myTextInput.addTextField("Date: dd.mm.yyyy", t1)
+myTextInput.addTextField("Name:", t0)
+myTextInput.addTextField("Birthday: dd.mm.yyyy", t1)
 myTextInput.addTextField("Time: гг-хх", t2);
 myTextInput.addTextField("Color: #rrggbb(hex) or keyword(base colors)", t3);
 
